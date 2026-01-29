@@ -33,6 +33,17 @@ const CONFIG = {
             nextBtn: "Avanti. ❤️"                                         // Text for the next button
         },
         third: {
+            text: "Quanto sei scarso e vecchio?",                          // For the love meter
+            yesBtn: "Tantissimo",                                             // Text for "Yes" button
+            noBtn: "Per niente, tu lo sei",                                               // Text for "No" button
+            secretAnswer: "Molto, ma non lo ammetterò mai."           // Secret hover message
+        },
+        fourth: {
+            text: "Ti renderai mai conto di che bella persona sei? Di quanto sei fantastico e bello? Di quanto i tuoi occhi siano belli e il tuo cuore d'oro?",                          // For the love meter
+            startText: "No, sono troppo stupido e cieco per la vecchiaia.",                                   // Text before the percentage
+            nextBtn: "Avanti. ❤️"               
+        },
+        fifth: {
             text: "Vuoi essere il mio Valentino il 14 Febbraio 2025? 🌹", // The big question!
             yesBtn: "Sì!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
@@ -78,7 +89,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://www.youtube.com/watch?v=1AoU--FMCrU", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/diejxxqqz/video/upload/v1/Stephen_Sanchez_Em_Beihold_-_Until_I_Found_You_Lyrics_128KBPS_xdrdr9.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
